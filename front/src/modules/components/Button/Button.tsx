@@ -15,8 +15,7 @@ export const Entry = () => {
         onClick={handler}
         variant="outlined"
         sx={{ pl: 10, pr: 10 }}
-        size="small"
-      >
+        size="small">
         Войти
       </Button>
     </ThemeProvider>

@@ -1,5 +1,5 @@
 import { createTheme } from "@mui/material/styles";
-import { TypographyOptions } from "@mui/material/styles/createTypography";
+// import { TypographyOptions } from "@mui/material/styles/createTypography";
 
 export const themeButton = createTheme({
   typography: {
