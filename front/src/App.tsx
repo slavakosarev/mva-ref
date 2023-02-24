@@ -11,6 +11,7 @@ import {
   GiftPage,
   EventPage,
   AboutUsPage,
+  HowItWorksPage,
 } from "./page";
 
 const subroute = routing();
@@ -26,6 +27,7 @@ route.create(MainPage, "/", "public", "Главная");
 route.create(LoginPage, "/login", "public", "Авторизация");
 route.create(SignUpPage, "/signup", "public", "Регистрация");
 route.create(AboutUsPage, "/aboutus", "public", "о нас");
+route.create(HowItWorksPage, "/howitworks", "public", "Как это работает?");
 route.create(DevelopPage, "/services", "public", "услуги");
 route.create(SubRouteGift, "/gifts/*", "public", "подарки");
 route.create(EventPage, "/event", "public", "события");
